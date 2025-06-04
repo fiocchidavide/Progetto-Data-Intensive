@@ -1,0 +1,38 @@
+name,description
+SubjectID,Subject ID
+aveOralF,Oral temperature measured in fast mode
+aveOralM,Oral temperature measured in monitor mode
+Gender,Male or Female
+Age,"Age ranges in categories
+"
+Ethnicity,"American Indian or Alaska Native, Asian, Black or African America, Hispanic/Latino, Multiracial, Native Hawaiian or other Pacific Islander, white."
+T_atm,Ambiant temperature
+Humidity,Relative humidity
+Distance,Distance between the subjects and the IRTs.  
+T_offset1,Temperature difference between the set and measured blackbody temperature. See section 2.3.1 in https://doi.org/10.1117/1.JBO.25.9.097002 .
+Max1R13_1,Max value of a circle with diameter of 13 pixels from the right canthus point to the face centerline
+Max1L13_1,Max value of a circle with diameter of 13 pixels from the left canthus point to the face centerline
+aveAllR13_1,Average value of a circle with diameter of 13 pixels from the right canthus point to the face centerline
+aveAllL13_1,Average value of a circle with diameter of 13 pixels from the left canthus point to the face centerline
+T_RC1,"Average temperature of the highest four pixels in a square of 24x24 pixels around the right canthus, with 2/3 toward the face center (dry area, 16x24 pixels) and 1/3 away from the face center (wet area, 8x24 pixels). "
+T_RC_Dry1,"Average temperature of the highest four pixels in the right canthus dry area, a rectangle of 16x24 pixels.  "
+T_RC_Wet1,"Average temperature of the highest four pixels in the right canthus wet area, a rectangle of 8x24 pixels."
+T_RC_Max1,"Max value of a square of 24x24 pixels around the right canthus, with 2/3 toward the face center (dry area, 16x24 pixels) and 1/3 away from the face center (wet area, 8x24 pixels)."
+T_LC1,"Average temperature of the highest four pixels in a square of 24x24 pixels around the left canthus, with 2/3 toward the face center (dry area, 16x24 pixels) and 1/3 away from the face center (wet area, 8x24 pixels)."
+T_LC_Dry1,"Average temperature of the highest four pixels in the left canthus dry area, a rectangle of 16x24 pixels.   "
+T_LC_Wet1,"Average temperature of the highest four pixels in the left canthus wet area, a rectangle of 16x24 pixels.  "
+T_LC_Max1,Max value of a circle with diameter of 13 pixels from the left canthus point to the face centerline
+RCC1,Average value of a square of 3x3 pixels centered at the right canthus point.
+LCC1,Average value of a square of 3x3 pixels centered at the left canthus point.  
+canthiMax1,Max value in the extended canthi area
+canthi4Max1,Average temperature of the highest four pixels within the extended canthus area.
+T_FHCC1,"Average value in the center point of forehead, a square of 3x3 pixels."
+T_FHRC1,"Average value in the right point of the forehead, a square of 3x3 pixels."
+T_FHLC1,"Average value in the left point of the forehead, , a square of 3x3 pixels."
+T_FHBC1,"Average value in the bottom point of the forehead, a square of 3x3 pixels."
+T_FHTC1,"Average value in the top point of the forehead, , a square of 3x3 pixels."
+T_FH_Max1,Maximum temperature within the extended forehead area.
+T_FHC_Max1,"Max value in the center point of forehead, a square of 3x3 pixels."
+T_Max1,Maximum temperature within the whole face region.
+T_OR1,Average temperature of the highest four pixels within the mouth region.
+T_OR_Max1,Maximum temperature within the mouth region.
